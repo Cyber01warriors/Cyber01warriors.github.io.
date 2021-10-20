@@ -17,39 +17,6 @@ body {
     font-family: 'Nunito Sans', sans-serif
 }
 
-/* navbar */
-.navbar{
-    display: flex;
-    justify-content: center;
-    height: 50px;
-    align-items: center;
-    position: sticky;
-    top: 0;
-}
-.navbar::before{
-    content: "";
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.5);
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-}
-.navbar ul{
-    display: flex;
-    list-style: none;
-}
-.navbar ul li{
-    font-size: 1.1rem;
-}
-.navbar ul li a{
-    padding: 5px 20px;
-    text-decoration: none;
-    color: white;
-}
-.navbar ul li a:hover{
-    border-bottom: 2px solid yellow;
-}
-
 /* Home Section */
 #home{
     display: flex;
